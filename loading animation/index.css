@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.all{
+    display: flex;
+   height: 100vh;
+   gap: 0.7rem;
+   align-items: center;
+   justify-content: center;
+   background-color: blue;
+    
+}
+.load{
+     height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: white;
+    animation: load 0.8s ease infinite;
+}
+
+.load.first {
+  animation-delay: 0.3s;
+}
+.load.second {
+  animation-delay: 0.4s;
+}
+.load.third{
+  animation-delay: 0.5s;
+}
+
+@keyframes load {
+  0% {
+    width: 30px;
+    height: 30px;
+  }
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
