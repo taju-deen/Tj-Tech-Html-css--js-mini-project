@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color:red;
+    background-color:rgb(164, 103, 103);
 }
 
 .overall-Container{
