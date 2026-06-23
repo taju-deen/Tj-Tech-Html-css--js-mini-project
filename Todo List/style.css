@@ -146,7 +146,9 @@ body{
 }
 .line{
     text-decoration: line-through;
-    opacity: 0.6;
+    opacity: 1;
+
+    text-decoration-color: red;
 }
 .all .sub-container li span{
     text-align: center;
